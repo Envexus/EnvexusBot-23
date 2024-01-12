@@ -17,7 +17,7 @@ module.exports = {
 
 
       if(mongoose.connect) {
-        console.log("Database Connected!")
+        console.log("Database Connected!!")
       }
 
       console.log(`${client.user.tag} is now Online!`);
