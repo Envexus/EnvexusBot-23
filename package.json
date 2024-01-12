@@ -1,0 +1,28 @@
+{
+  "name": "envexus",
+  "version": "4.0.0",
+  "description": "official bot for the envexus discord",
+  "main": "bot.js",
+  "scripts": {
+    "test": "nodemon bot.js"
+  },
+  "author": "mgmadnesstv",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^1.5.0",
+    "@iamtraction/google-translate": "^2.0.1",
+    "axios": "^1.4.0",
+    "canvacord": "^5.4.10",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.37.54",
+    "discord-canvas": "^1.5.2",
+    "discord-gamecord": "^4.4.1",
+    "discord-html-transcripts": "^3.1.5",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "minecraft-server-util": "^5.4.4",
+    "mongoose": "^6.0.2",
+    "nodemailer": "^6.9.4",
+    "nodemon": "^3.0.2"
+  }
+}
