@@ -10,7 +10,7 @@ module.exports = {
   async execute(member) {
     // Check if the member is a bot
     if (member.bot) {
-      const botEmbed = new MessageEmbed()
+      const botEmbed = new EmbedBuilder()
         .setColor("RANDOM")
         .setTitle('New Bot')
         .setDescription(`A new Bot (${member.user.tag}) has been added to ${member.guild.name}`);
@@ -37,7 +37,6 @@ module.exports = {
     });
 
     const embed = new EmbedBuilder()
-      .setColor("RANDOM")
       .setTitle('New Member')
       .setDescription(`
         Welcome ${member.user.tag} to ${member.guild.name}
