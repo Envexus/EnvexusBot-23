@@ -38,7 +38,6 @@ module.exports = {
             // Save the updated user document to the database
             await user.save();
 
-            console.log("Message saved successfully:", newMessage);
         } catch (error) {
             console.error("Error saving message:", error);
         }
